@@ -115,11 +115,6 @@ Also includes **Fake-listing risk evaluation** and **Price evaluation model**.
 
 ---
 
-## 📫 Contact
-- Email: {YOUR_EMAIL}
-- Blog/Notion: {YOUR_BLOG_URL}
-- LinkedIn: {YOUR_LINKEDIN_URL}
-
 <!-- Tips:
 1) Replace contact placeholders
 2) Pin repos: GOZIP, MentalCounseling_RAG, BankQA_RAG, ToyProject...
