@@ -57,45 +57,47 @@
 ## 🚀 Featured Projects
 
 ### 🏠 GOZIP — Hybrid RAG Real-Estate Recommendation Platform
-**Hybrid Retrieval + Recommendation Chatbot** powered by **Elasticsearch(Vector+Keyword)** + **Neo4j(Graph)**  
-Also includes **Fake-listing risk evaluation** and **Price evaluation model**.
+Elasticsearch(키워드+벡터)와 Neo4j(그래프DB)를 함께 활용해 “검색 + 추천”이 자연스럽게 이어지도록 설계한 부동산 매물 추천 서비스입니다.  
+허위매물 평가 모델과 가격평가 모델 결과를 추천 흐름에 연결해, 단순 추천이 아니라 신뢰도/가격 판단까지 함께 제공하는 것을 목표로 했습니다.
 
-- ✅ **Retrieval**: BM25 + Vector hybrid search (Elasticsearch), graph-aware filtering (Neo4j)
-- ✅ **Recommendation**: user intent → dynamic query/filter generation → ranked candidates
-- ✅ **Models**: 허위매물 평가 / 가격평가 결과를 서비스 기능으로 연결
-- ✅ **Focus**: 검색 품질(정확도) + 추천 설명가능성 + 서비스 운영 관점(성능/비용) 고려
-- ✅ **Stack**: Python · PostgreSQL(pgvector) · Elasticsearch · Neo4j · Docker · AWS
+- ✅ Retrieval: BM25 + Vector hybrid search(Elasticsearch) + graph-aware filtering(Neo4j)
+- ✅ Recommendation: user intent → dynamic query/filter generation → ranked candidates
+- ✅ Models: 허위매물 평가 / 가격평가 결과를 서비스 기능으로 연결
+- ✅ Stack: Python · PostgreSQL(pgvector) · Elasticsearch · Neo4j · Docker · AWS
 - 🔗 Repo: https://github.com/william7333/GOZIP
 
 ---
 
 ### 🧠 MentalCounseling_RAG — Multi-Turn Counseling & Mental Health Info Chatbot
-**PostgreSQL(pgvector)** 기반 유사도 검색 + **멀티턴 메모리/대화 상태**를 결합한 상담형 RAG.
+PostgreSQL(pgvector) 기반 벡터 검색으로 상담/정신질환 정보를 근거 중심으로 제공하는 멀티턴 RAG 챗봇입니다.  
+대화 맥락을 유지하면서 질문 의도 변화에 대응하고, 답변 범위/근거 제시를 통해 안전한 응답을 만들기 위한 프롬프트/흐름을 설계했습니다.
 
-- ✅ **Vector Search**: pgvector similarity search + metadata filtering
-- ✅ **Multi-turn**: conversation context 유지, intent 변화 대응
-- ✅ **Safety**: 답변 범위/근거 제시, 오답/환각 억제 프롬프트 설계
-- ✅ **Stack**: Python · PostgreSQL(pgvector) · Docker
+- ✅ Vector Search: pgvector similarity search + metadata filtering
+- ✅ Multi-turn: conversation context 유지, intent 변화 대응
+- ✅ Safety: 근거 제시, 오답/환각 억제 프롬프트 설계
+- ✅ Stack: Python · PostgreSQL(pgvector) · Docker
 - 🔗 Repo: https://github.com/william7333/MentalCounseling_RAG
 
 ---
 
 ### 🌊 Toyroject_WatetSportsRecommendation — Water Sports Spot & Date Recommender
-수상레저 추천 **지역+날짜 챗봇**: 사용자 조건과 환경 데이터를 바탕으로 추천 결과 제공.
+사용자가 원하는 날짜/지역/조건을 입력하면, 환경 지표를 함께 고려해 수상레저에 적합한 장소와 시점을 추천하는 챗봇 프로젝트입니다.  
+추천 결과를 단순 나열하지 않고, 왜 그 장소/날짜가 좋은지 설명 가능한 형태로 보여주는 흐름에 집중했습니다.
 
-- ✅ **Recommendation**: user constraints → ranking logic → explanation
-- ✅ **Data**: 날씨/해양 지표 기반 추천 시나리오 설계
-- ✅ **Stack**: Python · (Backend) FastAPI · (Frontend) React · Docker
+- ✅ Recommendation: user constraints → ranking logic → explanation
+- ✅ Data: 날씨/해양 지표 기반 추천 시나리오 설계
+- ✅ Stack: Python · (Backend) FastAPI · (Frontend) React · Docker
 - 🔗 Repo: https://github.com/william7333/Toyroject_WatetSportsRecommendation
 
 ---
 
 ### 🏦 BankQA_RAG — Loan/Deposit Q&A RAG Service (Woori + KB)
-은행 **대출/예적금 약관** 기반 Q&A: 문서 근거 중심 답변 + 출처 제시.
+우리은행·국민은행의 대출/예적금 약관 문서를 기반으로 질문에 답하고, 근거 문단을 함께 제시하는 금융 Q&A RAG 서비스입니다.  
+문서 chunking → embedding → retrieval → grounded answer 흐름을 구성하고, 질문 의도에 맞게 답변 형식과 출처를 정리해 신뢰도를 높이도록 설계했습니다.
 
-- ✅ **RAG**: chunking → embedding → retrieval → grounded answer
-- ✅ **Explainability**: 근거 문단/출처 제시, 질문 의도 분류
-- ✅ **Stack**: Python · RAG · Docker
+- ✅ RAG: chunking → embedding → retrieval → grounded answer
+- ✅ Explainability: 근거 문단/출처 제시, 질문 의도 분류
+- ✅ Stack: Python · RAG · Docker
 - 🔗 Repo: https://github.com/william7333/BankQA_RAG
 
 ---
