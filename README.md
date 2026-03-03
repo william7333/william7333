@@ -3,7 +3,7 @@
      william7333
      ======================= -->
 
-<h1 align="center">[기술 블로그](https://william7333.github.io.git) </h1>
+<h1 align="center">[기술 블로그](https://william7333.github.io) </h1>
 <p align="center">
   <b>DevOps × AI Engineer</b> · Full-Stack Web Developer (RAG) · Search & Recommendation Systems
 </p>
