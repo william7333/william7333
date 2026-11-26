@@ -21,11 +21,10 @@
 
 ---
 
-## 🧭 About Me
-- 🔥 Interested in **Hybrid RAG**, **Search/Ranking**, **Personalized Recommendation**
-- 🧩 Building **production-ready AI web services** (Frontend + Backend + Retrieval + Eval)
-- ⚙️ Experience with **AWS** and **Docker** for deployment & 운영 환경 고려
-- 🗃️ Heavy user of **PostgreSQL(pgvector)** / **Elasticsearch** / **Neo4j** for retrieval pipelines
+## About Me
+- Interested in **Hybrid RAG**, **Search/Ranking**, **Personalized Recommendation**
+- Building **production-ready AI web services** (Frontend + Backend + Retrieval + Eval)
+- Experience with **AWS** and **Docker** for deployment & 운영 환경 고려
 
 ---
 
@@ -41,24 +40,24 @@
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 ### 🏠 GOZIP — Hybrid RAG Real-Estate Recommendation Platform
 Elasticsearch(키워드+벡터)와 Neo4j(그래프DB)를 함께 활용해 “검색 + 추천”이 자연스럽게 이어지도록 설계한 부동산 매물 추천 서비스입니다.  
 허위매물 평가 모델과 가격평가 모델 결과를 추천 흐름에 연결해, 단순 추천이 아니라 신뢰도/가격 판단까지 함께 제공하는 것을 목표로 했습니다.
 
-- ✅ Retrieval: BM25 + Vector hybrid search(Elasticsearch) + graph-aware filtering(Neo4j)
-- ✅ Recommendation: user intent → dynamic query/filter generation → ranked candidates
-- ✅ Models: 허위매물 평가 / 가격평가 결과를 서비스 기능으로 연결
-- ✅ Stack: Python · PostgreSQL(pgvector) · Elasticsearch · Neo4j · Docker · AWS
+- Retrieval: BM25 + Vector hybrid search(Elasticsearch) + graph-aware filtering(Neo4j)
+- Recommendation: user intent → dynamic query/filter generation → ranked candidates
+- Models: 허위매물 평가 / 가격평가 결과를 서비스 기능으로 연결
+- Stack: Python · PostgreSQL(pgvector) · Elasticsearch · Neo4j · Docker · AWS
 - 🔗 Repo: https://github.com/william7333/GOZIP
 
 ---
 
-## 📌 What I’m focusing on 
-- 🔎 **Hybrid Retrieval Quality**: BM25 + Vector + Graph 기반 랭킹 개선 / 평가 지표 구축
-- ⚡ **Latency & Cost**: caching / chunking / embedding 전략 최적화
-- 🧱 **Production Architecture**: Dockerized services, observability, CI/CD, safe prompting
+## What I’m focusing on 
+- **Hybrid Retrieval Quality**: BM25 + Vector + Graph 기반 랭킹 개선 / 평가 지표 구축
+- **Latency & Cost**: caching / chunking / embedding 전략 최적화
+- **Production Architecture**: Dockerized services, observability, CI/CD, safe prompting
 ---
 
 <!-- Tips:
